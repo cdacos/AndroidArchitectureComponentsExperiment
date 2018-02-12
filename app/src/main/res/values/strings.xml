@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Android Architecture Components Experiment</string>
+  <string name="icon_description">Icon</string>
+  <string name="fetching_items">Fetching items…</string>
+  <string name="sort_by_name">Sort by name</string>
+  <string name="sort_by_speed">Sort by speed</string>
+  <string name="refresh">Refresh</string>
+  <string name="error_code">ERR</string>
+  <string name="online_warning">You need to be online</string>
+  <string name="online_message">You are online</string>
+</resources>
