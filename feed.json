@@ -1,0 +1,37 @@
+[
+  {
+    "name": "eBay UK",
+    "url": "www.ebay.co.uk",
+    "icon": "https:\/\/pages.ebay.com\/favicon.ico"
+  },
+  {
+    "name": "eBay USA",
+    "url": "www.ebay.com",
+    "icon": "https:\/\/pages.ebay.com\/favicon.ico"
+  },
+  {
+    "name": "Google USA",
+    "url": "www.google.co.za",
+    "icon": "https:\/\/www.google.co.uk\/favicon.ico"
+  },
+  {
+    "name": "Google UK",
+    "url": "www.google.co.za",
+    "icon": "https:\/\/www.google.co.uk\/favicon.ico"
+  },
+  {
+    "name": "Yahoo Japan",
+    "url": "yahoo.co.jp",
+    "icon": "https:\/\/s.yimg.jp\/images\/top\/sp2\/cmn\/logo-170307.png"
+  },
+  {
+    "name": "Broken",
+    "url": "www.example.com",
+    "icon": "https:\/\/www.example.com\/broken.gif"
+  },
+  {
+    "name": "NASA JPL",
+    "url": "www.jpl.nasa.gov",
+    "icon": "https:\/\/imagecache.jpl.nasa.gov\/images\/640x350\/2andy-home-640x350.gif"
+  }
+]
