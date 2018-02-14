@@ -41,8 +41,8 @@ public class FakeTargetRepository extends TargetRepository {
   }
 
   @Override
-  public void measure(String url) {
-    Target target = getTargetFromUrl(url);
+  public void measure(String name) {
+    Target target = getTargetFromName(name);
     if (target != null) {
       target.setResult(100);
     }

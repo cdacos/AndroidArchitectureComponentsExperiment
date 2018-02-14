@@ -9,6 +9,7 @@ import org.junit.Test;
 import org.junit.rules.TestRule;
 
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class ExampleTargetListViewModelUnitTest {
   @Rule
@@ -17,6 +18,9 @@ public class ExampleTargetListViewModelUnitTest {
   @Test
   public void initTest() {
     TargetListViewModel viewModel = new TargetListViewModel(new FakeTargetRepository());
+    assertNotNull(viewModel);
+    assertTrue(viewModel.loadData());
+    assertNotNull(viewModel.getData());
     assertNotNull(viewModel.getData().getValue());
   }
 }

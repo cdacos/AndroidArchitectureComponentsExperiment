@@ -18,7 +18,7 @@ public class TargetListViewModel extends ViewModel {
   }
 
   public boolean loadData() {
-    if (getData().getValue() == null || getData().getValue().size() == 0) {
+    if (getData() == null || getData().getValue() == null || getData().getValue().size() == 0) {
       repository.loadData();
       return true;
     }
@@ -33,8 +33,8 @@ public class TargetListViewModel extends ViewModel {
     return repository.getFakeMessage();
   }
 
-  public void measure(String url) {
-    repository.measure(url);
+  public void measure(String name) {
+    repository.measure(name);
   }
 
   public void sortByName() {

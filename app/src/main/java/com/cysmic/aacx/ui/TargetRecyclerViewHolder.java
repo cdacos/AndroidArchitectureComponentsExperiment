@@ -45,7 +45,7 @@ class TargetRecyclerViewHolder extends RecyclerView.ViewHolder {
       progress.setVisibility(View.GONE);
       result.setVisibility(View.VISIBLE);
     }
-    measure.setTag(item.getUrl());
+    measure.setTag(item.getName());
     String n = item.getName() + (!TextUtils.isEmpty(item.getError()) ? " - " + item.getError() : "");
     name.setText(n);
     if (item.getResult() < 0) {

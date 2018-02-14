@@ -32,7 +32,7 @@ public class ExampleInstrumentedTest {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("com.cysmic.simplepingtester", appContext.getPackageName());
+    assertEquals("com.cysmic.aacx", appContext.getPackageName());
   }
 
   @Test

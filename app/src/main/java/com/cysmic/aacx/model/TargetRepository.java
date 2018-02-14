@@ -49,11 +49,11 @@ public class TargetRepository implements FetchResponse {
     return message;
   }
 
-  // Returns the first that matches - url _should_ be unique?
-  protected Target getTargetFromUrl(String url) {
+  // Returns the first that matches - name _should_ be unique?
+  protected Target getTargetFromName(String name) {
     if (data.getValue() != null) {
       for (Target item : data.getValue()) {
-        if (item.getUrl().equalsIgnoreCase(url)) {
+        if (item.getName().equalsIgnoreCase(name)) {
           return item;
         }
       }
@@ -65,8 +65,8 @@ public class TargetRepository implements FetchResponse {
     data.setValue(itemSort.sortData(data.getValue(), sortBy));
   }
 
-  public void measure(final String url) {
-    Target item = getTargetFromUrl(url);
+  public void measure(final String name) {
+    Target item = getTargetFromName(name);
     if (item != null) measureTarget(item);
   }
 
